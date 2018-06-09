@@ -1,0 +1,35 @@
+{
+  "name": "stream-role-bot",
+  "private": true,
+  "version": "0.3.0",
+  "description": "Discord Bot that assigns a role when someone is streaming.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "eslint --color src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/lolPants/stream-role-bot.git"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "streaming",
+    "role"
+  ],
+  "author": "Jack Baron <me@jackbaron.com> (https://jackbaron.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/lolPants/stream-role-bot/issues"
+  },
+  "homepage": "https://gitlab.com/lolPants/stream-role-bot#README",
+  "devDependencies": {
+    "eslint": "^4.19.1"
+  },
+  "dependencies": {
+    "async-exit-hook": "^2.0.1",
+    "fancylog": "^3.1.1",
+    "ioredis": "^3.2.2",
+    "statsbot-backend": "^0.6.4"
+  }
+}
